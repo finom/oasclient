@@ -1,0 +1,29 @@
+{
+  "name": "oasclient",
+  "version": "0.0.0",
+  "description": "OAS Clients",
+  "homepage": "https://github.com/finom/oasclient#readme",
+  "bugs": {
+    "url": "https://github.com/finom/oasclient/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finom/oasclient.git"
+  },
+  "license": "MIT",
+  "author": "Andrey Gubanov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "openapi3-ts": "^4.5.0",
+    "vovk": "^3.0.0-beta.99"
+  },
+  "devDependencies": {
+    "vovk-cli": "^0.0.1-beta.62"
+  }
+}
